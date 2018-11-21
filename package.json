@@ -1,0 +1,17 @@
+{
+    "name": "netlify-functions-starter",
+    "version": "1.0.0",
+    "description": "Netlify Functions Starter",
+    "main": "index.js",
+    "scripts": {
+        "dev": "netlify-lambda serve src",
+        "build": "netlify-lambda build src",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Alex Price (@remotealex)",
+    "license": "MIT",
+    "devDependencies": {
+        "dotenv": "^6.1.0",
+        "netlify-lambda": "^1.0.3"
+    }
+}
